@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 200;
+    color: purple;
+    font-family: 'Pacifico', cursive;
+}
+.navbar-brand:hover{
+    color: purple;
+}
+
+.input{
+    width: 80%;
+    outline: none;
+    border: 2px solid purple;
+
+}
+.search-icon{
+    padding: 14px 12px 13px 10px ;
+    background-color: purple;
+    cursor: pointer;
+}
+
+.customize-icon{
+    color: purple;
+    border-radius: 100%;
+    padding: 6px;
+    cursor: pointer;
+}
+
+
+
+/*menu*/
+.navbar-toggler{
+    color: transparent;
+ }
+ 
+ .navbar-toggler>span{
+     display: block;
+     background-color: white;
+     width: 20px;
+     height: 2px;
+ }
+ .navbar-toggler>span+span{
+    margin-top: 4px;
+     background-color: white;
+     width: 20px;
+     height: 2px;
+ }
+ .navbar-toggler>span+span+span{
+    margin-top:4px;
+    background-color: white;
+    width: 20px;
+    height: 2px;
+ }
+ 
+
+
+ .menu>a{
+     padding-left: 25px;
+     color: white;
+     font-size: 1.1rem;
+     text-decoration: none;
+ }
+
+
+
+ .navbar-nav>li>a:hover{
+     color: white;
+ }
+
+ .scrolling{
+  position:fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color:white;
+  transition: 0.2s;
+
+ }
+@media(max-width:770px){
+    #icon-div{
+       position: fixed;
+       left: 277px;
+    }
+    #main-menu{
+        position: fixed;
+        left: 25px;
+        padding-left: 5px;
+    }
+}
+
+
+
+
+
+
+
+/*slider*/
+.carousel-control-prev{
+    padding-right: 20px;
+    font-weight: 900;
+    color: purple;
+    
+}
+.carousel-control-prev>.carousel-control-prev-icon>span{
+   color: purple;
+}
+
+
+
+
+
+
+
+
+
+/*main*/
+
+.wrapper:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px #ddd;
+}
+
+.main-iamge{
+   display: block;
+   width:50%;
+   height: 200px;
+   margin: auto;
+}
+
+@media (max-width:992px) {
+    .main-iamge{
+        width:80%;
+    }
+}
+
+@media (max-width:768px) {
+    .main-iamge{
+        width:60%;
+    }
+}
+
+@media (max-width:577px) {
+    .main-iamge{
+        width:70%;
+    }
+    #resize{
+        width: 50%;
+    }
+    #resize-img{
+        width: 60%;
+    }
+}
